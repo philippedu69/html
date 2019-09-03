@@ -1,0 +1,81 @@
+body{
+    width: 500px;
+    margin: auto;
+    padding-top: 5px;
+    border: solid 1px rgb(102, 98, 98);
+}
+header
+{
+    background: url('https://via.placeholder.com/500 x 250') rgb(237, 238, 238);
+    position: relative;
+    height: 200px;
+}
+.topbar
+{
+    background-color: #4B4E51;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 20px;
+}
+.topbar ul{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-bottom: 3px;
+    padding-inline-start: 10px;
+}
+.topbar li{
+    display: inline;
+    color: rgb(145, 138, 138);
+    margin-right: 5px;
+}
+.active{
+    background-color: rgb(237, 238, 238);
+    border: 1px solid lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    margin: 0 10px;
+}
+.title{
+    margin-left: 10px;
+    text-align: left;
+    padding-top: 0;
+}
+.detail{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: solid 1px black;
+    justify-content: center;
+}
+.menu{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    justify-content: center;
+}
